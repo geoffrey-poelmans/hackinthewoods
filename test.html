@@ -5,18 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/bootstrap.css">
+  <link rel="stylesheet" href="testcss.css">
   <title>Document</title>
 </head>
 <body>
   <button type="button" id="plus" name="button">Plus</button>
   <button type="button" id="moins"  name="button">Moins</button>
-  <div class="lol" style="display:none">
+  <div class="lol">
     <p>MDRRRRR</p>
-    <p id="multiplicateur">0</p>
-    <p id="viande">0</p>
-    <p id="feculent">0</p>
-    <p id="legume">0</p>
+    <!-- <p id="multiplicateur">0</p> -->
+    <img id="position-1" src="" alt="">
+    <img id="position-2" src="" alt="">
+    <img id="position-3" src="" alt="">
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+      </div>
+      <div class="col-4">
+        <div class="progress">
+          <div id="barLegume" class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="80"> Matiere grasse</div>
+        </div>
+        <div class="progress">
+          <div id="barViande" class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="80"> féculent</div>
+        </div>
+        <div class="progress">
+          <div id="barFeculent" class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="80"> Légumes</div>
+        </div>
+    </div>
+    <p id="lol1"></p>
+    <p id="lol2"></p>
+    <p id="lol3"></p>
   <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple19/v4/3e/c8/9c/3ec89c0f-8406-155a-0322-cd53c81253ea/pr_source.png/246x0w.jpg" alt="">
   <script src="assets/jquery.js"></script>
   <script src="bootstrap.js"></script>
