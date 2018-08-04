@@ -1,19 +1,8 @@
 /* sections footer */
+
 section{
     /* border: 1px solid black; */
     height: 250px;
-    
-}
-.assiette{
-   
-}
-
-.progressbar{
-    
-}
-
-.pourcentage{
-    
 }
 
 .dimensions-assiette{
@@ -27,19 +16,20 @@ section{
     position: absolute;
     display: inline;
     z-index: 2;
+    height: 60px;
 }
 
-.position-viande{
+#position-1{
     top: 30px;
     left: 160px;
 }
 
-.position-legume{
+#position-2{
     top: 90px;
     left: 130px;
 }
 
-.position-feculent{
+#position-3{
     top: 90px;
     left: 195px;
 }
