@@ -20,6 +20,28 @@ section{
     display: block;
     width: 12em;
     margin: auto;
+    z-index: 0;
+}
+
+.position-assiette{
+    position: absolute;
+    display: inline;
+    z-index: 2;
+}
+
+.position-viande{
+    top: 30px;
+    left: 160px;
+}
+
+.position-legume{
+    top: 90px;
+    left: 130px;
+}
+
+.position-feculent{
+    top: 90px;
+    left: 195px;
 }
 
 .footer-container{
