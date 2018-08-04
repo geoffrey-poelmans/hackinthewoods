@@ -1,26 +1,67 @@
-var boeufBio = {image:"boeuf"};
-var boeufIndu = {image:"boeuf"};
-var boeufMiddle = {image:"boeuf"};
-var pouletBio = {image:"poulet"};
-var pouletMiddle = {image:"poulet"};
-var saladeBio = {image:"salade"};
-var saladeIndu = {image:"salade"};
-var saladeMiddle = {image:"salade"};
-var tomateBio = {image:"tomate"};
-var tomateMiddle = {image:"tomate"};
-var patateBio = {image:"patate"};
-var patateIndu = {image:"patate"};
-var patateMiddle = {image:"patate"};
-var burger = {imageBurger:"burger",imageSalade:"salade",imagefrites:"frites"};
-var legume = {image:"legume"};
-var rizBio = {image:"riz"};
-var rizMiddle = {image:"riz"};
+// OBJECT
+var boeufBio = {image:"boeuf", protein:"", legume:"", feculent:""};
+var boeufIndu = {image:"boeuf", protein:"", legume:"", feculent:""};
+var boeufMiddle = {image:"boeuf", protein:"", legume:"", feculent:""};
+var pouletBio = {image:"poulet", protein:"", legume:"", feculent:""};
+var pouletMiddle = {image:"poulet", protein:"", legume:"", feculent:""};
+var saladeBio = {image:"salade", protein:"", legume:"", feculent:""};
+var saladeIndu = {image:"salade", protein:"", legume:"", feculent:""};
+var saladeMiddle = {image:"salade", protein:"", legume:"", feculent:""};
+var tomateBio = {image:"tomate", protein:"", legume:"", feculent:""};
+var tomateMiddle = {image:"tomate", protein:"", legume:"", feculent:""};
+var patateBio = {image:"patate", protein:"", legume:"", feculent:""};
+var patateIndu = {image:"patate", protein:"", legume:"", feculent:""};
+var patateMiddle = {image:"patate", protein:"", legume:"", feculent:""};
+var burger = {imageBurger:"burger",imageSalade:"salade",imagefrites:"frites", protein:"", legume:"", feculent:""};
+var legume = {image:"legume", protein:"", legume:"", feculent:""};
+var rizBio = {image:"riz", protein:"", legume:"", feculent:""};
+var rizMiddle = {image:"riz", protein:"", legume:"", feculent:""};
 
-$("#mdr").click(plus()) ;
+// VARIABLES
+var multiplicateur = $("#multiplicateur").text();
+var viande = $("#viande").text();
+var feculent = $("#feculent").text();
+var legume = $("#legume").text();
+
+//FILTRE
+var echelleDeGris = 100;
+$("img").css("filter", "grayscale("+ echelleDeGris +"%)");
+
+
+//FONCTIONS PLUS
+$("#plus").click(function(){
+  plus();
+});
 
 function plus() {
-  $("#progressbar").css("width","50%");
+  multiplicateur++;
+  $(".lol").css("display","block");
+  if (multiplicateur < 2) {
+    $("#multiplicateur").css("display","none");
+  } else {
+    $("#multiplicateur").css("display","block");
+    $("#multiplicateur").text(multiplicateur);
+  }
+  
 }
 
 
-$(".lol").css("display","inline");
+//FONCTIONS MOINS
+$("#moins").click(function() {
+  moins();
+});
+
+function moins() {
+    if (multiplicateur != 0) {
+      multiplicateur--;
+    }
+  if (multiplicateur < 1) {
+    $(".lol").css("display","none");
+  }
+  if (multiplicateur < 2) {
+    $("#multiplicateur").css("display","none");
+  } else {
+    $("#multiplicateur").css("display","block");
+    $("#multiplicateur").text(multiplicateur);
+  }
+}
