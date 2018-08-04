@@ -1,0 +1,26 @@
+.row{
+  /* border: solid 10px green; */
+  margin: auto;
+  text-align: center;
+}
+
+#etablissement{
+  /* background-color: grey; */
+}
+
+#colonnes{
+  /* background-color: pink;
+  border: solid 10px red; */
+  margin: auto;
+
+}
+
+#vache{
+margin: auto;
+ }
+
+
+figure{
+  margin: auto;
+  text-align: center;
+}
