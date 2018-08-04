@@ -1,0 +1,21 @@
+/* sections footer */
+
+.assiette{
+    background-color: rgb(247, 235, 235);
+}
+
+.progressbar{
+    background-color: rgb(247, 235, 235);
+}
+
+.pourcentage{
+    background-color: rgb(247, 235, 235);
+}
+
+.dimensions-assiette{
+    position: relative;
+    width: 12em;
+    align-items: center;
+}
+
+
