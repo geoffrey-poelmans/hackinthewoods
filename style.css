@@ -1,21 +1,31 @@
 /* sections footer */
-
+section{
+    /* border: 1px solid black; */
+    height: 250px;
+    
+}
 .assiette{
-    background-color: rgb(247, 235, 235);
+   
 }
 
 .progressbar{
-    background-color: rgb(247, 235, 235);
+    
 }
 
 .pourcentage{
-    background-color: rgb(247, 235, 235);
+    
 }
 
 .dimensions-assiette{
-    position: relative;
+    display: block;
     width: 12em;
-    align-items: center;
+    margin: auto;
+}
+
+.footer-container{
+    padding-top: 50px;
+    background-color: rgb(147, 223, 172);
+    border: 3px solid rgb(92, 165, 116);
 }
 
 
