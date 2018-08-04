@@ -17,8 +17,30 @@
 
 #vache{
 margin: auto;
+background-image: url("img/grass.png");
  }
 
+#interrogation{
+  position: absolute;
+  bottom: 80px;
+  right: 35px;
+  opacity: 0.6;
+}
+
+#interrogation:hover{
+  opacity: 1;
+}
+
+#plus{
+  position: absolute;
+  opacity: 0.6;
+  top: 45px;
+  right: 35px;
+}
+
+#plus:hover{
+  opacity: 1;
+}
 
 figure{
   margin: auto;
