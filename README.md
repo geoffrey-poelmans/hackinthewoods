@@ -3,11 +3,9 @@
 
 **Porteur du projet** : Good-planet.
 
-Développeurs **Becode**:
+**Développeurs (Becode)**:
 
-_Ajay Shinde_, _Colombe Sechehaye_, _Alexandre Infanti_, _Marco Bove_ formation: **Johnson 2**
-
-_Goeffrey Poelmans_ formation: **Lovelace 2**.
+_Ajay Shinde_, _Colombe Sechehaye_, _Alexandre Infanti_, _Marco Bove_, _Geoffrey Poelmans_.
 
 
 Présentation du projet:
