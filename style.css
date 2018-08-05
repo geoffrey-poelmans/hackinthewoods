@@ -1,0 +1,75 @@
+
+
+/* sections footer */
+
+section{
+    /* border: 1px solid black; */
+    height: 250px;
+}
+
+.dimensions-assiette{
+    /* display: block; */
+    /* width: 12em; */
+    margin: auto;
+    z-index: 0;
+}
+.couvert{
+   display: block;
+    width: 12em;
+    margin: auto;
+    z-index: 0;
+    height: 90%;
+}
+.position-assiette{
+    position: absolute;
+    display: inline;
+    z-index: 2;
+    height: 60px;
+}
+
+#position-1{
+    top: 30px;
+    left: 130px;
+
+}
+
+#position-2{
+    top: 90px;
+    left: 90px;
+}
+
+#position-3{
+    top: 90px;
+    left: 155px;
+}
+
+.footer-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid rgb(143, 134, 65);
+    background-color: rgb(171, 162, 98);
+}
+
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.progress{
+  width:78%;
+  height: 22%;
+  margin:4%;
+padding: 3px;
+
+
+}
+
+#progress2{
+  width:88%;
+  height: 12%;
+  margin:6%;
+}
+.bg-danger{
+  background-color: #3264a2;
+}
