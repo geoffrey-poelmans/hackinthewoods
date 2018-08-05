@@ -1,48 +1,74 @@
-.row{
+body {
+  background-image: url("img/texture1.png");
+}
+
+.row {
   /* border: solid 10px green; */
   margin: auto;
   text-align: center;
 }
 
-#etablissement{
+
+#etablissement {
   /* background-color: grey; */
 }
 
-#colonnes{
+#colonnes {
   /* background-color: pink;
   border: solid 10px red; */
   margin: auto;
-
 }
 
-#vache{
-margin: auto;
-background-image: url("img/grass.png");
- }
+#vache {
+  margin: auto;
+  background-image: url("img/grass.png");
+}
 
-#interrogation{
+#mais {
+  margin: auto;
+}
+
+#interrogation {
   position: absolute;
-  bottom: 80px;
-  right: 35px;
+  bottom: 55px;
+  right: 53px;
   opacity: 0.6;
 }
 
-#interrogation:hover{
+#interrogation:hover {
   opacity: 1;
 }
 
-#plus{
+#plus {
   position: absolute;
   opacity: 0.6;
-  top: 45px;
-  right: 35px;
+  top: 55px;
+  right: 53px;
 }
 
-#plus:hover{
+#plus:hover {
   opacity: 1;
 }
 
-figure{
+figure {
   margin: auto;
   text-align: center;
+}
+
+#routeHorizontale1 {
+  max-width : 100%;
+  heigth: auto;
+  display: block;
+}
+
+#routeHorizontale2 {
+  max-width : 100%;
+  heigth: auto;
+  display: block;
+}
+
+#routeHorizontale3 {
+  max-width : 100%;
+  heigth: auto;
+  display: block;
 }
