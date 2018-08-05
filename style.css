@@ -73,3 +73,26 @@ padding: 3px;
 .bg-danger{
   background-color: #3264a2;
 }
+
+#footer{
+background-color: #C2CDE7;
+border-radius: 5px;
+}
+
+#assiette{
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#scoreTotal{
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: white;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+
+}

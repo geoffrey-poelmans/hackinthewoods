@@ -1,29 +1,28 @@
-var boeufBio = {image:"boeuf"};
-var boeufIndu = {image:"boeuf"};
-var boeufMiddle = {image:"boeuf"};
-var pouletBio = {image:"poulet"};
-var pouletMiddle = {image:"poulet"};
-var saladeBio = {image:"salade"};
-var saladeIndu = {image:"salade"};
-var saladeMiddle = {image:"salade"};
-var tomateBio = {image:"tomate"};
-var tomateMiddle = {image:"tomate"};
-var patateBio = {image:"patate"};
-var patateIndu = {image:"patate"};
-var patateMiddle = {image:"patate"};
-var burger = {imageBurger:"burger",imageSalade:"salade",imagefrites:"frites"};
-var legume = {image:"legume"};
-var rizBio = {image:"riz"};
-var rizMiddle = {image:"riz"};
+// var boeufBio = {image:"boeuf"};
+// var boeufIndu = {image:"boeuf"};
+// var boeufMiddle = {image:"boeuf"};
+// var pouletBio = {image:"poulet"};
+// var pouletMiddle = {image:"poulet"};
+// var saladeBio = {image:"salade"};
+// var saladeIndu = {image:"salade"};
+// var saladeMiddle = {image:"salade"};
+// var tomateBio = {image:"tomate"};
+// var tomateMiddle = {image:"tomate"};
+// var patateBio = {image:"patate"};
+// var patateIndu = {image:"patate"};
+// var patateMiddle = {image:"patate"};
+// var burger = {imageBurger:"burger",imageSalade:"salade",imagefrites:"frites"};
+// var legume = {image:"legume"};
+// var rizBio = {image:"riz"};
+// var rizMiddle = {image:"riz"};
+//
+// $("#mdr").click(plus()) ;
+//
+// function plus() {
+//   $("#progressbar").css("width","50%");
+// }
+// $(".lol").css("display","inline");
 
-$("#mdr").click(plus()) ;
-
-function plus() {
-  $("#progressbar").css("width","50%");
-}
-
-
-$(".lol").css("display","inline");
 // OBJECT
 var boeufBio = {image:"img-assiette/icons8-beef-64.png", protein:31, legume:0, fibre:0, Co2:17, energie:52, eau:39};
 var boeufIndu = {image:"img-assiette/icons8-beef-64.png", protein: 26, legume:0, fibre:0, Co2:24, energie:31, eau:54};
