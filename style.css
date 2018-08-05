@@ -12,6 +12,28 @@ section{
     z-index: 0;
 }
 
+.moinsoui{
+    position: absolute;
+    border-radius: 50px;
+    background-color: rgb(221, 65, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    border: 1px white solid; 
+    top: 30px;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.couvert{
+   display: block;
+    width: 12em;
+    margin: auto;
+    z-index: 0;
+    height: 90%;
+}
 .position-assiette{
     position: absolute;
     display: none;
@@ -21,23 +43,25 @@ section{
 
 #position-1{
     top: 30px;
-    left: 160px;
+    left: 130px;
+    
 }
 
 #position-2{
     top: 90px;
-    left: 130px;
+    left: 90px;
 }
 
 #position-3{
     top: 90px;
-    left: 195px;
+    left: 155px;
 }
 
 .footer-container{
-    padding-top: 50px;
-    background-color: rgb(147, 223, 172);
-    border: 3px solid rgb(92, 165, 116);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid rgb(143, 134, 65);
+    background-color: rgb(171, 162, 98);
 }
 
 
@@ -47,13 +71,19 @@ section{
 }
 
 .progress{
-  width:58%;
-  height: 52%;
+  width:78%;
+  height: 22%;
   margin:4%;
+padding: 3px;
+
+
 }
 
 #progress2{
-  width:58%;
-  height: 52%;
+  width:88%;
+  height: 12%;
   margin:6%;
+}
+.bg-danger{
+  background-color: #3264a2;
 }

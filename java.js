@@ -1,3 +1,7 @@
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
 // // /**
 // //  *  écouter les changements sur tous les select du formulaire
 // //  */
