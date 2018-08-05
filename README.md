@@ -1,7 +1,8 @@
 # hackinthewoods-good-planet
 **Projet hackinthewood première édition**.
 
-**Porteur du projet** : Good-planet. <br/>
+**Porteur du projet** :
+Good-planet. <br/>
 Développeurs **Becode**: <br/>
 _Ajay Shinde_, _Colombe Sechehaye_, _Alexandre Infanti_, _Marco Bove_ formation: **Johnson 2**. <br />
 _Goeffrey Poelmans_ formation: **Lovelace 2**.<br /><br />
