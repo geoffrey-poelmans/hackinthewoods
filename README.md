@@ -1,9 +1,7 @@
 # hackinthewoods-good-planet
 **Projet hackinthewood première édition**.
 
-**Porteur du projet** :
-
-Good-planet.
+**Porteur du projet** : Good-planet.
 
 Développeurs **Becode**:
 
