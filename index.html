@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="assets/bootstrap.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap.css">
+  <link rel="stylesheet" href="carte.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/bootstrap.css" />
+
+  <title>Document</title>
 </head>
 
 <body>
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Boucherie
-      </button> -->
-      <img src="img-assiette/logo.png" alt="" data-toggle="modal" data-target="#exampleModal">
+      
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -40,13 +40,6 @@
           </div>
         </div>
       </div>
-
-
-
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
-          Fast Food
-        </button>
-        
         <!-- Modal -->
         <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -71,9 +64,6 @@
         </div>
 </div>
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal3">
-   Supermarché
-  </button>
   
   <!-- Modal -->
   <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -98,12 +88,333 @@
   </div>
 </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><H2>Ferme</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <p>Si l’on oppose généralement l’agriculture conventionnelle avec l’agriculture bio, n’existe-t-il pas aussi plusieurs manières de produire bio ? Les organismes officiels nous ont répondu par la négative mais la vision est différente.
+           Ce producteur de fruits et légumes bio estime qu’il est tout à fait possible de produire du bio de façon intensive. "On commence à voir de plus en plus de producteurs qui vont se concentrer sur quelques cultures qu'ils vont écouler uniquement en grandes surfaces, 
+          constate-t-il.</p>
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/u3Mu18pHZrc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal4">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  <div class="container footer-container">
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-1">
-          <img class="couvert"src="img-assiette/couvert.jpg" alt="" srcset="">
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/butchery.png" alt="boucherie" id="etablissement">
+          <img src="img/interrogation.png" alt="ptInterrogation" id="interrogation"data-toggle="modal" data-target="#exampleModal">
+          <img src="img/plus.png" alt="plus" id="plus">
+          <figcaption>Boucher</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 " style="padding-left: 0px; padding-right: 0px;">
+        <figure id="routeHorizontale1">
+          <img src="img/horizRoad.png" alt="routeHorizontale">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="mais">
+        <figure>
+          <img src="img/corn.png" alt="blé" id="ble1">
+          <img src="img/corn.png" alt="blé" id="ble2">
+          <img src="img/corn.png" alt="blé" id="ble3">
+          <img src="img/corn.png" alt="blé" id="ble4">
+          <img src="img/corn.png" alt="blé" id="ble5">
+          <img src="img/corn.png" alt="blé" id="ble6">
+          <img src="img/corn.png" alt="blé" id="ble7">
+          <img src="img/corn.png" alt="blé" id="ble8">
+          <img src="img/corn.png" alt="blé" id="ble9">
+          <img src="img/corn.png" alt="blé" id="ble10">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/farm.png" alt="ferme" >
+          <img src="img/interrogation.png" alt="ptInterrogation" id="interrogation"data-toggle="modal4" data-target="#exampleModal4">
+          <img src="img/plus.png" alt="plus" id="plus">
+          <figcaption>Ferme</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="vache">
+        <figure>
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+          <img src="img/cow.png" alt="vache">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12" style="padding-left: 0px; padding-right: 0px;">
+        <figure id="routeHorizontale2">
+          <img src="img/horizRoad.png" alt="routeHorizontale">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/fastFood.png" alt="fastFood" >
+          <img src="img/interrogation.png" alt="ptInterrogation" id="interrogation"data-toggle="modal" data-target="#exampleModal2">
+          <img src="img/plus.png" alt="plus" id="plus">
+          <figcaption>Fast Food</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 " style="padding-left: 0px; padding-right: 0px;">
+        <figure id="routeHorizontale3">
+          <img src="img/horizRoad.png" alt="routeHorizontale">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/market.png" alt="marché">
+          <img src="img/interrogation.png" alt="ptInterrogation" id="interrogation">
+          <img src="img/plus.png" alt="plus" id="plus">
+          <figcaption>Marché</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/house.png" alt="maison">
+          <img src="img/house.png" alt="maison">
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+      <div class="col-md-2" id="colonnes">
+        <figure>
+          <img src="img/superMarket.png" alt="maison">
+          <img src="img/interrogation.png" alt="ptInterrogation" id="interrogation" data-toggle="modal" data-target="#Modal3">
+          <img src="img/plus.png" alt="plus" id="plus">
+          <figcaption>Grande surface</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-1" id="colonnes">
+        <figure>
+          <img src="img/vertRoad.png" alt="routeVerticale" id="route">
+        </figure>
+      </div>
+    </div>
+
+  </div>
+
+<div class="container-fluid" id="footer">
+  <div class="row">
+    <div class="col-md-2" id="assiette">
+      <div id="position-1" class="position-assiette position-viande">
+        <img src="" />
+      </div>
+      <div id="position-2" class="position-assiette position-legume">
+        <img src="" />
+      </div>
+      <div id="position-3" class="position-assiette position-feculent">
+        <img src="" />
+      </div>
+      <img class="dimensions-assiette" src="img-assiette/assiette-assiette.png" alt="assiette" />
+      <button type="button" id="legume" name="button">TEST</button>
+      <img src="img-assiette/moins.png" alt="moins" id="moins" name="button">
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="progress">
+        <div id="progressbarViande" class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="80"> Matière grasse</div>
+      </div>
+      <div class="progress">
+        <div id="progressbarFeculent" class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="80"> Féculent</div>
+      </div>
+      <div class="progress">
+        <div id="progressbarLegume" class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="80"> Légumes</div>
+      </div>
+    </div>
+
+    <div class="col-md-2">
+      <H6>Santé</H6>
+      <div class="progress" id="progress2">
+        <div id="progressbar2Sante" class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="80"></div>
+      </div>
+      <h6>Energie</h6>
+      <div class="progress" id="progress2">
+        <div id="progressbar2Energie" class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="80"></div>
+      </div>
+    </div>
+
+    </div>
+<div class="col-md-2">
+  <h5>Score total</h5>
+  <div class="scoreTotal" id="scoreTotal">
+<p></p>
+  </div>
+
 </div>
       <div class="col-3">
         <div id="position-1" class="position-assiette position-viande">
@@ -161,6 +472,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="java.js"></script>
+        <script src="main.js"></script>
+        <script src="assets/jquery.js"></script>
+  </div>
+</div>
+	
 </body>
 
 </html>

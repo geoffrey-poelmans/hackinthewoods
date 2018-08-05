@@ -1,0 +1,82 @@
+body {
+  background-image: url("img/texture1.png");
+  /* filter: grayscale(0%); */
+}
+
+.row {
+  /* border: solid 10px green; */
+  margin: auto;
+  text-align: center;
+}
+
+#etablissement {
+  /* background-color: grey; */
+}
+
+#colonnes {
+  /* background-color: pink;
+  border: solid 10px red; */
+  margin: auto;
+}
+
+#vache {
+  margin: auto;
+  background-image: url("img/grass.png");
+}
+
+#mais {
+  margin: auto;
+}
+
+#interrogation {
+  position: absolute;
+  bottom: 55px;
+  right: 33px;
+  opacity: 0.7;
+  filter: grayscale(50%);
+}
+
+#interrogation:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+
+}
+
+#plus {
+  position: absolute;
+  opacity: 0.7;
+  top: 55px;
+  right: 33px;
+  filter: grayscale(50%);
+
+}
+
+#plus:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+
+
+}
+
+figure {
+  margin: auto;
+  text-align: center;
+}
+
+#routeHorizontale1 {
+  max-width: 100%;
+  heigth: auto;
+  display: block;
+}
+
+#routeHorizontale2 {
+  max-width: 100%;
+  heigth: auto;
+  display: block;
+}
+
+#routeHorizontale3 {
+  max-width: 100%;
+  heigth: auto;
+  display: block;
+}
