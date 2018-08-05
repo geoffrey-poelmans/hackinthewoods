@@ -13,7 +13,7 @@ Présentation du projet:
 **Le projet :** développement d'un jeu pour enfants, afin de sensibiliser ceux-ci à l'impact écologique qu'engendre la surconsommation de viande et les effets néfastes sur la santé.
 http://goodplanet.be
 
-![picture](/screenshot.png)
+![picture](/./screenshot.png)
 
 
 **Description :** Le but du jeu est d'obtenir une assiette équilibrée tant pour obtenir un bon score
