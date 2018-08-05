@@ -71,3 +71,16 @@ padding: 3px;
 .bg-danger{
   background-color: #3264a2;
 }
+
+.modal-content{
+  background-color:rgb(185, 180, 144);
+  border: 3px solid rgb(143, 134, 65);
+}
+
+.modal-title{
+  color: antiquewhite;
+}
+
+
+
+
