@@ -28,19 +28,19 @@ section{
 }
 
 #position-1{
-    top: 30px;
-    left: 130px;
+    top: 15px;
+    left: 65px;
 
 }
 
 #position-2{
-    top: 90px;
-    left: 90px;
+    top: 35px;
+    left: 65px;
 }
 
 #position-3{
-    top: 90px;
-    left: 155px;
+    top: 25px;
+    left: 85px;
 }
 
 .footer-container{
@@ -76,10 +76,19 @@ padding: 3px;
 
 #footer{
 background-color: #C2CDE7;
+border: solid 5px;
+border-color: #5A8AB9;
 border-radius: 5px;
+margin-top: -10px;
 }
 
 #assiette{
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#progressBar{
   margin: auto;
   margin-left: 0px;
   margin-right: 0px;
@@ -90,9 +99,20 @@ border-radius: 5px;
   border-width: 5px;
   border-radius: 15px;
   border-color: white;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   margin: auto;
   text-align: center;
 
+}
+
+#progressbarFeculent {
+  color: black;
+}
+#progressbarViande{
+  color: black;
+}
+
+#progressbarLegume{
+  color: black;
 }

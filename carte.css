@@ -2,6 +2,20 @@ body {
   background-image: url("img/texture1.png");
   /* filter: grayscale(0%); */
 }
+p{
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  font-weight: bold;
+}
+
+#txtBar{
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  margin: auto;
+}
+
+#scoreTot{
+  margin: auto;
+  text-align: center;
+}
 
 .row {
   /* border: solid 10px green; */
@@ -30,7 +44,7 @@ body {
 
 #interrogation {
   position: absolute;
-  bottom: 55px;
+  bottom: 70px;
   right: 33px;
   opacity: 0.7;
   filter: grayscale(50%);
@@ -54,8 +68,15 @@ body {
 #plus:hover {
   opacity: 1;
   filter: grayscale(0%);
+}
 
+#moins {
+  opacity: 0.7;
+}
 
+#moins:hover {
+  opacity: 1;
+  filter: grayscale(0%);
 }
 
 figure {
