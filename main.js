@@ -97,10 +97,9 @@ $("#boeufBio").click(function() {
     $("#progressbar2Eau").css("width",barEau + "%");
 
     scoreEco = (barEnergie + barCo2 + barEau)/3;
-    // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
-    // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
+    $("#scoreTotal").text(scoreTotal);
   }
 });
 
@@ -143,6 +142,7 @@ $("#boeufIndu").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -186,6 +186,7 @@ $("#pouletBio").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -229,6 +230,7 @@ $("#pouletIndu").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -271,6 +273,7 @@ $("#pouletIndu").click(function() {
       // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
       scoreTotal = (scoreEco + moyenneSante)/2;
+      $("#scoreTotal").text(scoreTotal);
       // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
     }
 });
@@ -313,6 +316,7 @@ $("#saladeIndu").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -355,6 +359,7 @@ $("#tomateBio").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -397,6 +402,7 @@ $("#tomateIndu").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -439,6 +445,7 @@ $("#patateBio").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -481,6 +488,7 @@ $("#legume").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -523,6 +531,7 @@ $("#rizBio").click(function() {
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -551,7 +560,6 @@ $("#rizIndu").click(function() {
 
     moyenneSante = (barViande + barLegume + barFeculent)/3;
     $("#progressbar2Sante").css("width",moyenneSante + "%");
-    console.log(moyenneSante);
     barEnergie += rizIndu.energie;
     $("#progressbar2Energie").css("width",barEnergie + "%");
 
@@ -564,9 +572,8 @@ $("#rizIndu").click(function() {
     scoreEco = (barEnergie + barCo2 + barEau)/3;
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
-    console.log(scoreEco);
     scoreTotal = (scoreEco + moyenneSante)/2;
-    console.log(scoreTotal);
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
   }
 });
@@ -607,6 +614,7 @@ $("#burger").click(function() {
 
 
     scoreTotal = (scoreEco + moyenneSante)/2;
+    $("#scoreTotal").text(scoreTotal);
     // AFFICHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE SCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORRRE
 
   }
