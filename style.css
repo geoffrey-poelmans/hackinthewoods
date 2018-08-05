@@ -36,7 +36,7 @@ section{
 }
 .position-assiette{
     position: absolute;
-    display: none;
+    display: inline;
     z-index: 2;
     height: 60px;
 }
