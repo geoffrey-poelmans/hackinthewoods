@@ -1,100 +1,98 @@
-
-
 /* sections footer */
 
-section{
-    /* border: 1px solid black; */
-    height: 250px;
+section {
+  /* border: 1px solid black; */
+  height: 250px;
 }
 
-.dimensions-assiette{
-    /* display: block; */
-    /* width: 12em; */
-    margin: auto;
-    z-index: 0;
-}
-.couvert{
-   display: block;
-    width: 12em;
-    margin: auto;
-    z-index: 0;
-    height: 90%;
-}
-.position-assiette{
-    position: absolute;
-    display: inline;
-    z-index: 2;
-    height: 60px;
+.dimensions-assiette {
+  /* display: block; */
+  /* width: 12em; */
+  margin: auto;
+  z-index: 0;
 }
 
-#position-1{
-    top: 20px;
-    left: 70px;
-
+.couvert {
+  display: block;
+  width: 12em;
+  margin: auto;
+  z-index: 0;
+  height: 90%;
 }
 
-#position-2{
-    top: 40px;
-    left: 70px;
+.position-assiette {
+  position: absolute;
+  display: inline;
+  z-index: 2;
+  height: 60px;
 }
 
-#position-3{
-    top: 30px;
-    left: 90px;
+#position-1 {
+  top: 20px;
+  left: 100px;
 }
 
-.footer-container{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border: 3px solid rgb(143, 134, 65);
-    background-color: rgb(171, 162, 98);
+#position-2 {
+  top: 40px;
+  left: 100px;
 }
 
+#position-3 {
+  top: 30px;
+  left: 120px;
+}
+
+.footer-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px solid rgb(143, 134, 65);
+  background-color: rgb(171, 162, 98);
+}
 
 .container {
   height: 100%;
   width: 100%;
 }
 
-.progress{
-  width:78%;
+.progress {
+  width: 78%;
   height: 22%;
-  margin:4%;
-padding: 3px;
-
-
+  margin: 4%;
+  padding: 3px;
 }
 
-#progress2{
-  width:88%;
+#progress2 {
+  width: 88%;
   height: 12%;
-  margin:6%;
+  margin: 6%;
 }
-.bg-danger{
+
+.bg-danger {
   background-color: #3264a2;
 }
 
-#footer{
-background-color: #C2CDE7;
-border: solid 5px;
-border-color: #5A8AB9;
-border-radius: 5px;
-margin-top: -15px;
+#footer {
+  background-color: #C2CDE7;
+  border: solid 5px;
+  border-color: #5A8AB9;
+  border-radius: 5px;
+  margin-top: -15px;
+  position: fixed;
 }
 
-#assiette{
+#assiette {
   margin: auto;
   margin-left: 0px;
   margin-right: 0px;
 }
 
-#progressBar{
+#progressBar {
   margin: auto;
   margin-left: 0px;
   margin-right: 0px;
 }
 
-#scoreTotal{
+#scoreTotal {
   border-style: solid;
   border-width: 5px;
   border-radius: 15px;
@@ -105,16 +103,15 @@ margin-top: -15px;
   text-align: center;
 }
 
-
-
 #progressbarFeculent {
   color: black;
 }
-#progressbarViande{
+
+#progressbarViande {
   color: black;
 }
 
-#progressbarLegume{
+#progressbarLegume {
   color: black;
 }
 

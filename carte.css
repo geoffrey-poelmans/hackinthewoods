@@ -1,18 +1,21 @@
 body {
-  background-image: url("img/texture1.png");
-  /* filter: grayscale(0%); */
+  background-image: url("img/texture4.png");
+  width: 100%;
+  /* position: fixed; */
+  filter: grayscale(80%);
 }
-p{
+
+p {
   font-family: "Comic Sans MS", Comic Sans, cursive;
   font-weight: bold;
 }
 
-#txtBar{
+#txtBar {
   font-family: "Comic Sans MS", Comic Sans, cursive;
   margin: auto;
 }
 
-#scoreTot{
+#scoreTot {
   margin: auto;
   text-align: center;
 }
@@ -53,7 +56,6 @@ p{
 #interrogation:hover {
   opacity: 1;
   filter: grayscale(0%);
-
 }
 
 #plus {
@@ -62,7 +64,6 @@ p{
   top: 55px;
   right: 33px;
   filter: grayscale(50%);
-
 }
 
 #plus:hover {
@@ -84,20 +85,23 @@ figure {
   text-align: center;
 }
 
-#routeHorizontale1 {
+.img-fluid {
   max-width: 100%;
-  heigth: auto;
-  display: block;
+  height: auto;
 }
 
-#routeHorizontale2 {
-  max-width: 100%;
-  heigth: auto;
-  display: block;
+@media (max-width: 576px) {
+  .img-fluid {
+    width: 100%;
+  }
+  #route {
+    max-width: 100%;
+  }
 }
 
-#routeHorizontale3 {
-  max-width: 100%;
-  heigth: auto;
-  display: block;
+@media (min-width: 450px) {
+  #route {
+    max-width: 30%;
+    max-height: 100%;
+  }
 }
